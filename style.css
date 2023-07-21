@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: #F6F6EE;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 4vw;
+    height: 15vh;
+    background-color: #F6F6EE;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+#nav h3 span{
+    font-weight: 600;
+}
+
+#nav #links{
+    display: flex;
+    gap: 50px;
+}
+
+#links a{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: "PlayFair Display";
+    color: black;
+    transition: ease-in 0.2S;
+    text-decoration: underline transparent;
+    overflow: hidden;
+}
+
+#links a:hover{
+    text-decoration: underline black;
+    scale: 1.2;
+}
+
+#heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    font-size: 20px;
+    background-color: #F6F6EE;
+}
+
+#heading p{
+    text-align: center;
+    width: 50%;
+    margin: 30px 0 ;
+}
+
+#heading button{
+    padding: 12px 12px;
+    background-color: black;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 17px;
+    margin-top: 5vw;
+    transition: all ease 0.2s;
+}
+
+#heading button:hover{
+    background-color: pink;
+    color: black;
+    border-color: black;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px black;
+    scale: 1.05;
+}
+
+#heading h1{
+    font-family: Voyage;
+}
+
+#illus{
+    width: 100%;
+}
+
+#illlus img {
+    margin-top: 5vw;
+    width: 100%;
+    background-color: #F6F6EE;
+}
+
+#details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw 5vw;
+    width: 100%;
+    background-color: #F6F6EE;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#details #dleft{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+    width: 48%;
+    border-right: 2px solid black;
+    padding-right: 50px;
+}
+
+#details #dleft p{
+    font-size: 16px;
+    text-align: right;
+    width: 40%;
+    margin-top: 10px;
+}
+
+#details #dleft #smline{
+    width: 20%;
+    height: 2px;
+    margin-top: 10px;
+    background-color: #000;
+}
+
+#details #dright{
+    width: 48%;
+}
+
+.feat p{
+    margin-top: 10px;
+    font-size: 16px;
+    width: 50%;
+}
+
+.fdets h3:hover{
+    text-decoration: underline;
+}
+
+#dright .feat img{
+    width: 8%;
+    height: 8%;
+}
+
+#dright .feat{
+    display: flex;
+    gap: 20px;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    background-color: #F6F6EE;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px 0px 50px 0px;
+}
+
+
+#footer .fleft{
+    margin-left: 10%;
+}
+
+
+#footer .fleft h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#footer .fleft h4 span{
+    font-weight: 700;
+}
+
+
+#footer .fleft p{
+    width: 60%;
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+#footer .fmiddle{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+}
+
+.fmiddle a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 3px;
+    color: black;
+    transition: all ease 0.25s;
+    overflow: hidden;
+    text-decoration: underline transparent;
+}
+
+.fmiddle a:hover{
+    text-decoration: underline black;
+    scale: 1.2;
+}
+
+#footer .fright{
+    margin-right: 10%;
+}
+
+#footer .fright a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+#footer .fright p{
+    width: 100%;
+}
+
